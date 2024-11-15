@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bandibandus10</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="home-button">HOME</a>
+        <img src="profilkep.png" alt="profilkep" class="profilkep">
+    </header>
+    
+    <main>
+        <h1>bandibandus10</h1>
+        <div class="text">
+            <p>Hey! I'm a <span class="age"></span> year-old middle school student in Hungary.</p>
+            <p>In my free time, I like playing with my friends and code things.</p>
+            <p>(i like doing things that others dont.)</p>
+    </main>
+    
+    <script>
+        const age = document.querySelector(".age");
+        const birthDate = new Date("2010-01-28");
+        const today = new Date();
+        age.innerHTML = today.getFullYear() - birthDate.getFullYear();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Libre+Caslon+Text&family=Noto+Serif+JP:wght@600&family=Silkscreen&family=Tinos&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("../szia.png");
+    color: #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Center header content */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Profile image styling */
+.profilkep {
+    width: 150px;
+    margin: 0 auto 10px; /* Brings the image closer to the button */
+}
+
+/* DISCORD button styling */
+.home-button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    color: #000;
+    font-family: 'Silkscreen', sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 30px; /* Adds some space below the button */
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main .text p { 
+    font-size: 1.5rem;
+    font-weight: 1200;
+    font-family: 'Noto Serif JP', serif;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* General button styling */
+button {
+    background-color: #f4f4f4;
+    color: #000;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.5rem;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d3d3d3;
+}
