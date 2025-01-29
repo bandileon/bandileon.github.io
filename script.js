@@ -10,13 +10,16 @@ function navigateTo(section) {
             window.location.href = 'about/index.html';
             break;
         case 'projects':
-            window.location.href = 'projects.html';
+            window.location.href = 'work/index.html';
             break;
         case 'contact':
-            window.location.href = 'contact.html';
+            window.location.href = 'work/index.html';
             break;
         case 'github':
             window.open('https://github.com/bandileon/', '_blank');
+            break;
+        case 'back':
+            window.location.href = 'index.html';
             break;
         default:
             console.log('Invalid section');
