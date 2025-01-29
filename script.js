@@ -9,10 +9,7 @@ function navigateTo(section) {
         case 'about':
             window.location.href = 'about/index.html';
             break;
-        case 'projects':
-            window.location.href = 'work/index.html';
-            break;
-        case 'contact':
+        case 'work':
             window.location.href = 'work/index.html';
             break;
         case 'github':
